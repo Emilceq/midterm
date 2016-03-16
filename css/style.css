@@ -1,0 +1,61 @@
+title{
+  font-family: Amatic SC;
+}
+.container{
+  margin: 20px 0px 0px 0px;
+  background-color: teal;
+  font-family: Indie Flower;
+  font-size:50px;
+  font-weight: bold;
+  text-align: center;
+  width:100%;
+
+}
+.pic-boxes{
+  float:left;
+  padding: 0px 0px 0px 0px;
+  width: 50%;
+  margin: 2px 1px 2px 1px;
+}
+
+.one{
+  font-family: Amatic SC;
+  font-size: 30px;
+
+}
+
+.pic{
+  width:100%;
+  margin:0px 10px 0px 8px;
+}
+body{
+  margin: 0px 200px 0px 200px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: #FFCBA4;
+}
+ul .box{
+  background-color: pink;
+  font-family: Indie Flower;
+  font-size: 20px;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  border-style: double;
+
+}
+.title{
+  font-weight: bold;
+  font-size: 30px;
+}
+body img{
+  width:100%;
+  font-family: indie flower;
+}
+
+.hide{
+  display:none;
+}
+.show {
+  display: block;
+}
