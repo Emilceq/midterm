@@ -1,61 +1,111 @@
-title{
+title {
+  font-family: Amatic SC;
+  margin-bottom: 0px;
+}
+
+body {
+  line-height: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+
+body p {
+  text-align: center;
+}
+
+.header {
+  margin: 0px auto 0px auto;
+  background-color: #84BE9F;
+  font-family: Amatic SC;
+  font-size: 24px;
+  font-weight: bold;
+  font-color: red;
+  text-align: center;
+  letter-spacing: 5px;
+}  
+
+h1 {
   font-family: Amatic SC;
 }
-.container{
-  margin: 20px 0px 0px 0px;
-  background-color: teal;
+
+.container {
+  margin: 0px;
+  background-color: black;
   font-family: Indie Flower;
   font-size:50px;
   font-weight: bold;
   text-align: center;
   width:100%;
-
 }
-.pic-boxes{
-  float:left;
-  padding: 0px 0px 0px 0px;
-  width: 50%;
-  margin: 2px 1px 2px 1px;
+ 
+.column {
+  width: 30%;
+  background-color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0px;
 }
 
-.one{
+.column p {
+  font-family: Indie Flower;
+  color: black;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.column h2 {
   font-family: Amatic SC;
-  font-size: 30px;
-
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.pic{
-  width:100%;
-  margin:0px 10px 0px 8px;
-}
-body{
-  margin: 0px 200px 0px 200px;
-  line-height: 40px;
-  letter-spacing: 2px;
-  text-align: center;
-  background-color: #FFCBA4;
-}
-ul .box{
-  background-color: pink;
+.column h3 {
   font-family: Indie Flower;
   font-size: 20px;
-  text-align: center;
-  padding: 0px 20px 0px 20px;
-  border-style: double;
-
-}
-.title{
   font-weight: bold;
-  font-size: 30px;
 }
-body img{
-  width:100%;
-  font-family: indie flower;
+.column img {
+  width: 30%;
+  margin-left: 0px;
+  margin-right: 0px;
+
 }
 
-.hide{
+.bio {
+  width:100%;
+  text-align: center;
+  font-family: Amatic SC;
+  font-size: 30px;
+  font-color: red;
+  background-color: white;
+}
+
+.bio h2 {
+  font-family: Amatic SC;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.bio h3 {
+  font-family: Amatic SC;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.bio p {
+  font-size: 14px;
+  font-family: Indie Flower;
+}
+
+.hide {
   display:none;
 }
+
 .show {
   display: block;
 }

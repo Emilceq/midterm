@@ -1,4 +1,14 @@
-$("button").click(function(){
-  $("#more").toggleClass("hide");
-  $("button").hide();
+$("#bukowski").click(function(){
+	$(".hide").addClass("show");
+	$("#bukowski").hide();
+});
+
+$("#poet").click(function(){
+	$(".hide").addClass("show");
+	$("#poet").hide();
+});
+
+$("#vallejo").click(function(){
+	$(".hide").addClass("show");
+	$("#vallejo").hide();
 });
